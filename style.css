@@ -1,6 +1,88 @@
 body {
 
 	background-image: url('img/background.jpg');
-	background-repeat: no-repeat;
 	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+	transition:all 0.3s ease;
+
+}
+
+.mainbox {
+
+	background-color: rgba(0, 0, 0, 0.5);
+	width: 50%;
+	margin-left: 25%;
+	margin-top: 5%;
+	border-radius: 25px 50px;
+	
+}
+
+.profile {
+
+	width: 30%;
+	padding-left: 35%;
+	padding-top: 5%;
+	
+
+	
+}
+
+.mainbox h1 {
+
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+}
+
+.mainbox h2 {
+	
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+
+}
+
+.mainbox h4 {
+
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom: 15%;
+
+}
+
+ul {
+
+	margin-top: -10%;
+	margin-left: 22.5%;
+	padding-bottom: 5%;
+	padding-top: 0%;
+
+
+	
+
+}
+
+.mainbox li {
+	display: inline-block;
+	list-style: none;
+	margin-left: 2.5%;
+
+}
+
+.mainbox li a {
+
+	color: white;
+	text-decoration: none;
+	font-size: 60px;
+
+}
+
+.mainbox li a:hover {
+
+	color: rgba(255, 255, 255, 0.6);
+
 }
