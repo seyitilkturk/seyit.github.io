@@ -50,3 +50,9 @@ h3:hover {
     padding-right: 1%;
     
 }
+
+@media (max-width: 1200px) {
+    .textbox {
+        margin-top: 5%;
+    }
+}
